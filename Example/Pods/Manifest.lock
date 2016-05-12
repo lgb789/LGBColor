@@ -1,0 +1,14 @@
+PODS:
+  - LGBColor (0.1.0)
+
+DEPENDENCIES:
+  - LGBColor (from `../`)
+
+EXTERNAL SOURCES:
+  LGBColor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBColor: 33244deed3b2c26efb36bfd968bf9425181c4108
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module Pods_LGBColor_Example_LGBColor_Tests {
+  umbrella header "Pods-LGBColor_Example-LGBColor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

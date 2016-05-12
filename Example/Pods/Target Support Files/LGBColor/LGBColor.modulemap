@@ -1,0 +1,6 @@
+framework module LGBColor {
+  umbrella header "LGBColor-umbrella.h"
+
+  export *
+  module * { export * }
+}
