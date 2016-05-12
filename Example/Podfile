@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGBColor_Example' do
+  pod 'LGBColor', :path => '../'
+
+  target 'LGBColor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
