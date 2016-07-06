@@ -17,4 +17,10 @@
                         blue:(CGFloat)blue
                        alpha:(CGFloat)alpha;
 
++(UIColor *)lgb_blackText;
+
++(UIColor *)lgb_grayText;
+
++(UIColor *)lgb_grayBackground;
+
 @end

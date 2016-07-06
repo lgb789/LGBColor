@@ -46,4 +46,19 @@
     return [UIColor colorWithRed:red / 255.0 green:green / 255.0 blue:blue / 255.0 alpha:alpha];
 }
 
++(UIColor *)lgb_blackText
+{
+    return [[UIColor blackColor] colorWithAlphaComponent:0.8];
+}
+
++(UIColor *)lgb_grayText
+{
+    return [[UIColor blackColor] colorWithAlphaComponent:0.5];
+}
+
++(UIColor *)lgb_grayBackground
+{
+    return [self lgb_colorFromHexCode:@"c1c1c1"];
+}
+
 @end
