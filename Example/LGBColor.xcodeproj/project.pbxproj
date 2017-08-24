@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7A9F9F981FC1DB4A400C92 /* Pods_LGBColor_Example_LGBColor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D392A809CB102ADD31ED52 /* Pods_LGBColor_Example_LGBColor_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A871D91C15C4BA02B4823CDF /* Pods_LGBColor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32208AF77258DBE210DC2100 /* Pods_LGBColor_Example.framework */; };
-		E898EA524AB9A0B962159A6E /* Pods_LGBColor_Example_LGBColor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9BAAAE0DAED79926ABCF1B /* Pods_LGBColor_Example_LGBColor_Tests.framework */; };
+		E78A80ED0FDEBABBD754CE95 /* Pods_LGBColor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A4E69E80DC0B8262407162 /* Pods_LGBColor_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AD289148C0907285A997D07 /* Pods-LGBColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBColor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		32208AF77258DBE210DC2100 /* Pods_LGBColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7FB91A582F0D893B2EF256 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5E66F3714AAFFC403B8FBD2A /* Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LGBColor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBColor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,13 +57,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		77E0B530C35C04044E9AE883 /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6DB51931C696A4ABAED15FDC /* Pods-LGBColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBColor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7886141A5107196A3A6A8C13 /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7A5E2B076BF91F614F151AB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		861FE3A679724EEBA6471BC6 /* Pods-LGBColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBColor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		AC2B5E8A51A3B325839357AA /* Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B465F84BE28CE0334AD58FBE /* Pods-LGBColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBColor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C5A4E69E80DC0B8262407162 /* Pods_LGBColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D392A809CB102ADD31ED52 /* Pods_LGBColor_Example_LGBColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBColor_Example_LGBColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3FD06B8194132520F7FBFB /* LGBColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGBColor.podspec; path = ../LGBColor.podspec; sourceTree = "<group>"; };
-		FC9BAAAE0DAED79926ABCF1B /* Pods_LGBColor_Example_LGBColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBColor_Example_LGBColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				A871D91C15C4BA02B4823CDF /* Pods_LGBColor_Example.framework in Frameworks */,
+				E78A80ED0FDEBABBD754CE95 /* Pods_LGBColor_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E898EA524AB9A0B962159A6E /* Pods_LGBColor_Example_LGBColor_Tests.framework in Frameworks */,
+				0D7A9F9F981FC1DB4A400C92 /* Pods_LGBColor_Example_LGBColor_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				95005DE2FFBD1D4E46DD5C46 /* Pods */,
+				F896382CD447331B47935B94 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				32208AF77258DBE210DC2100 /* Pods_LGBColor_Example.framework */,
-				FC9BAAAE0DAED79926ABCF1B /* Pods_LGBColor_Example_LGBColor_Tests.framework */,
+				C5A4E69E80DC0B8262407162 /* Pods_LGBColor_Example.framework */,
+				C5D392A809CB102ADD31ED52 /* Pods_LGBColor_Example_LGBColor_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,13 +182,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		95005DE2FFBD1D4E46DD5C46 /* Pods */ = {
+		F896382CD447331B47935B94 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1AD289148C0907285A997D07 /* Pods-LGBColor_Example.debug.xcconfig */,
-				861FE3A679724EEBA6471BC6 /* Pods-LGBColor_Example.release.xcconfig */,
-				AC2B5E8A51A3B325839357AA /* Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig */,
-				77E0B530C35C04044E9AE883 /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */,
+				6DB51931C696A4ABAED15FDC /* Pods-LGBColor_Example.debug.xcconfig */,
+				B465F84BE28CE0334AD58FBE /* Pods-LGBColor_Example.release.xcconfig */,
+				5E66F3714AAFFC403B8FBD2A /* Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig */,
+				7886141A5107196A3A6A8C13 /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -200,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LGBColor_Example" */;
 			buildPhases = (
-				989387B9C691928811FDCBA7 /* Check Pods Manifest.lock */,
+				9EEE2FA7F5F28ACBE335415A /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C0ED7D16CF20AD274690F4AE /* Embed Pods Frameworks */,
-				1A088D9F993171F5E5D9DAAC /* Copy Pods Resources */,
+				025329BC787B98EF7AC6841D /* [CP] Embed Pods Frameworks */,
+				8C6E3028E65C92D7B74147BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LGBColor_Tests" */;
 			buildPhases = (
-				6EF03E8615C98121C27740DC /* Check Pods Manifest.lock */,
+				1EA9CF91CDF6B4D2BD7AF741 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D8D168C88D0B8D477A6134BA /* Embed Pods Frameworks */,
-				FEC07D8AAC0E14EA325A3688 /* Copy Pods Resources */,
+				64B4D435FFCCA8ABF28C1E2C /* [CP] Embed Pods Frameworks */,
+				88EAFDD77C376F944C74AA92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lgb789;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6888BNAKKV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -293,59 +296,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A088D9F993171F5E5D9DAAC /* Copy Pods Resources */ = {
+		025329BC787B98EF7AC6841D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6EF03E8615C98121C27740DC /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		989387B9C691928811FDCBA7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C0ED7D16CF20AD274690F4AE /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,14 +311,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D8D168C88D0B8D477A6134BA /* Embed Pods Frameworks */ = {
+		1EA9CF91CDF6B4D2BD7AF741 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64B4D435FFCCA8ABF28C1E2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,19 +341,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FEC07D8AAC0E14EA325A3688 /* Copy Pods Resources */ = {
+		88EAFDD77C376F944C74AA92 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6E3028E65C92D7B74147BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EEE2FA7F5F28ACBE335415A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -509,14 +512,15 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AD289148C0907285A997D07 /* Pods-LGBColor_Example.debug.xcconfig */;
+			baseConfigurationReference = 6DB51931C696A4ABAED15FDC /* Pods-LGBColor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6888BNAKKV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGBColor/LGBColor-Prefix.pch";
 				INFOPLIST_FILE = "LGBColor/LGBColor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,14 +531,15 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 861FE3A679724EEBA6471BC6 /* Pods-LGBColor_Example.release.xcconfig */;
+			baseConfigurationReference = B465F84BE28CE0334AD58FBE /* Pods-LGBColor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6888BNAKKV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGBColor/LGBColor-Prefix.pch";
 				INFOPLIST_FILE = "LGBColor/LGBColor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,7 +550,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC2B5E8A51A3B325839357AA /* Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5E66F3714AAFFC403B8FBD2A /* Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -569,7 +574,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77E0B530C35C04044E9AE883 /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */;
+			baseConfigurationReference = 7886141A5107196A3A6A8C13 /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

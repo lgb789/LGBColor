@@ -7,7 +7,7 @@
 //
 
 #import "LGBViewController.h"
-#import "UIColor+lgb_color.h"
+
 
 @interface LGBViewController ()
 
@@ -19,15 +19,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //    self.view.backgroundColor = [UIColor blackColor];
-    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(100, 10, 100, 100)];
-    v.backgroundColor = [UIColor lgb_colorFromHexCode:@"#090ab30"];
-    [self.view addSubview:v];
-    
-    
-    UIView *v1 = [[UIView alloc] initWithFrame:CGRectMake(100, CGRectGetMaxY(v.frame) + 10, 100, 100)];
-    v1.backgroundColor = [UIColor lgb_colorWithRed:120 green:12 blue:32 alpha:1];
-    [self.view addSubview:v1];
+    self.view.backgroundColor = [UIColor iOS7orangeColor];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,6 +1,6 @@
 {
   "name": "LGBColor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A UIColor category.",
   "description": "A simple UIColor category.",
   "homepage": "https://github.com/lgb789/LGBColor",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/lgb789/LGBColor.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "6.0"

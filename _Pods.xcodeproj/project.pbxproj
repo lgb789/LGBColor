@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05299612390E9AE7BEC8E0625C7C9803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0B8FC28BC0633BCDC4BF297751D31D0C /* LGBColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D45377FA77BD49F8D46FB50C12A71B8 /* LGBColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F9FFE8C43B3423258C343C708376BFC /* Pods-LGBColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5D08D2B4E4B383704804867216030E /* Pods-LGBColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4368349B131BCF97678633B916F1BC7E /* Pods-LGBColor_Example-LGBColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6502BFACF7C01EE41D912290D21522 /* Pods-LGBColor_Example-LGBColor_Tests-dummy.m */; };
-		6963B44BFD9A735765C611936388DFBC /* UIColor+lgb_color.m in Sources */ = {isa = PBXBuildFile; fileRef = 096984E697B26EF31C63D3826A30A2BD /* UIColor+lgb_color.m */; };
-		78C91442DFE774E55A822D56A932EE5A /* Pods-LGBColor_Example-LGBColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6090DC2ED5B5745E193D594B843A6B38 /* Pods-LGBColor_Example-LGBColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		847F0EC838F516374EB1E244CC425BEA /* LGBColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65862C40A90C0CABC595DF7B5DBAE8 /* LGBColor-dummy.m */; };
-		8E7AD354D3A697CCD042536AF1C0218B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9B7F51B11F350C5E289BB6A51973221C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E849AF576EFB8F6D02D5BA92A561A121 /* Pods-LGBColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9871433AFC5BB9D8A4FD070129B53DF7 /* Pods-LGBColor_Example-dummy.m */; };
-		F650DA92575C18B350A904C2B87F0D52 /* UIColor+lgb_color.h in Headers */ = {isa = PBXBuildFile; fileRef = 7027B163A50D9BD30F81F975BC62A450 /* UIColor+lgb_color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B202D4005F0BA40451154E7655CB8F4 /* LGBColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65862C40A90C0CABC595DF7B5DBAE8 /* LGBColor-dummy.m */; };
+		4316A588D3078429E35B3AD05C507652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4C25DE3A4D2FEC000AB25334FEA1546D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5D1F268C45274E98DD7A85343AF18F66 /* UIColor+lgb_color.h in Headers */ = {isa = PBXBuildFile; fileRef = 7027B163A50D9BD30F81F975BC62A450 /* UIColor+lgb_color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66A27FCF5538471D28478C7787C21155 /* Pods-LGBColor_Example-LGBColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6502BFACF7C01EE41D912290D21522 /* Pods-LGBColor_Example-LGBColor_Tests-dummy.m */; };
+		7717A18AE6E2B1EACC1EC6A0C1FFD4CF /* UIColor+lgb_color.m in Sources */ = {isa = PBXBuildFile; fileRef = 096984E697B26EF31C63D3826A30A2BD /* UIColor+lgb_color.m */; };
+		92874AA544209B244B1E9F59F3171F3B /* Pods-LGBColor_Example-LGBColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6090DC2ED5B5745E193D594B843A6B38 /* Pods-LGBColor_Example-LGBColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE7DDF24A6052300F81693741520EB2E /* LGBColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D45377FA77BD49F8D46FB50C12A71B8 /* LGBColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFFEDBC59CB73F3D8D972FB2CEC052E2 /* Pods-LGBColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5D08D2B4E4B383704804867216030E /* Pods-LGBColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5B53D9293EF3959DF2928EAA2CF82A /* Pods-LGBColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9871433AFC5BB9D8A4FD070129B53DF7 /* Pods-LGBColor_Example-dummy.m */; };
+		F0CABA304EEBE77E0DCA01B09122B5F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34180AC8AAA40518033051CDB042BA0C /* PBXContainerItemProxy */ = {
+		459BF0421ED1DC82A171CAF923FAD041 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7384B84A9A8CD75AE8F3143607BEFB86;
+			remoteGlobalIDString = 27865A373B08EE2410DFF5FAF0269379;
 			remoteInfo = LGBColor;
 		};
-		B455ADFF09F64C6EDD5BD2A6B92AD723 /* PBXContainerItemProxy */ = {
+		F9110EA2F818DF7200FD46FA2702D306 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7384B84A9A8CD75AE8F3143607BEFB86;
+			remoteGlobalIDString = 27865A373B08EE2410DFF5FAF0269379;
 			remoteInfo = LGBColor;
 		};
 /* End PBXContainerItemProxy section */
@@ -42,30 +42,30 @@
 		06678513D50B9EB8D82F1B8D6A158E44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		096984E697B26EF31C63D3826A30A2BD /* UIColor+lgb_color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+lgb_color.m"; sourceTree = "<group>"; };
 		0B5D08D2B4E4B383704804867216030E /* Pods-LGBColor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBColor_Example-umbrella.h"; sourceTree = "<group>"; };
-		13C2AEAB083FD88FCD4705D74EC53431 /* Pods_LGBColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		151206139B40B2CA319D6E05521D31FB /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		188EFE41A93E92C7140CB5CF3172518A /* Pods-LGBColor_Example-LGBColor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBColor_Example-LGBColor_Tests-resources.sh"; sourceTree = "<group>"; };
-		1A13412E124607AD955D8BFE389E694B /* LGBColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C03D1CA58CCC08218E23A1FCDD0777A /* Pods_LGBColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC9079272B4872F85A2C7000E2F4DC0 /* Pods-LGBColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBColor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24665447F4FFE1C09FE902B96677D151 /* Pods-LGBColor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBColor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2D45377FA77BD49F8D46FB50C12A71B8 /* LGBColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBColor-umbrella.h"; sourceTree = "<group>"; };
 		316F7CB0D1DDCADD1CA8AC11FFC41D3B /* Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		335FFDFFC6E1B618513D78C37FEA4577 /* LGBColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBColor-prefix.pch"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4C91A0F3F4F807249D5038E09A064383 /* LGBColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBColor.xcconfig; sourceTree = "<group>"; };
 		56F417DE218F78BC0978538CB5CCE29F /* Pods-LGBColor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBColor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A65862C40A90C0CABC595DF7B5DBAE8 /* LGBColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBColor-dummy.m"; sourceTree = "<group>"; };
 		6090DC2ED5B5745E193D594B843A6B38 /* Pods-LGBColor_Example-LGBColor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBColor_Example-LGBColor_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		696F543F7C36E057D71F6D900D3954CC /* Pods-LGBColor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBColor_Example.modulemap"; sourceTree = "<group>"; };
 		7027B163A50D9BD30F81F975BC62A450 /* UIColor+lgb_color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+lgb_color.h"; sourceTree = "<group>"; };
 		8C30649930CF5E5D171079EDBDB7BD05 /* Pods-LGBColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E0902C92FA5BBB1CD26DCE9144BC79A /* LGBColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D9CD5BCA76E6800FA12B6A5A47C174 /* Pods-LGBColor_Example-LGBColor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBColor_Example-LGBColor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9871433AFC5BB9D8A4FD070129B53DF7 /* Pods-LGBColor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBColor_Example-dummy.m"; sourceTree = "<group>"; };
+		9947EE6D94AA4AEDD864F9276F86232B /* Pods_LGBColor_Example_LGBColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBColor_Example_LGBColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6502BFACF7C01EE41D912290D21522 /* Pods-LGBColor_Example-LGBColor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBColor_Example-LGBColor_Tests-dummy.m"; sourceTree = "<group>"; };
 		AFA587AC5EB8D748DB5A2747B13E969D /* Pods-LGBColor_Example-LGBColor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBColor_Example-LGBColor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B04F4FA0E44D0CDE9CEDC997C3A039CD /* Pods_LGBColor_Example_LGBColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBColor_Example_LGBColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ED6E98C95AA171C31D72A957C8A0A3 /* Pods-LGBColor_Example-LGBColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBColor_Example-LGBColor_Tests.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCFC29EDD573425295F7DC58ADCB07F5 /* Pods-LGBColor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBColor_Example-resources.sh"; sourceTree = "<group>"; };
 		DE33D5EC6AA9840102C8000F21DB6823 /* Pods-LGBColor_Example-LGBColor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBColor_Example-LGBColor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E43B337F559015EC03E2BB54C6B0E570 /* LGBColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LGBColor.modulemap; sourceTree = "<group>"; };
@@ -74,27 +74,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		318CC6765046AEF3D6DED2852A5C5632 /* Frameworks */ = {
+		1FE745CC9C9C42BD90095CE8B1AFF47D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7AD354D3A697CCD042536AF1C0218B /* Foundation.framework in Frameworks */,
+				4316A588D3078429E35B3AD05C507652 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B820614B20F0F997E64A41D8F6553C00 /* Frameworks */ = {
+		907C3CDBAE5BBFB4977D082D4813E6E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7F51B11F350C5E289BB6A51973221C /* Foundation.framework in Frameworks */,
+				F0CABA304EEBE77E0DCA01B09122B5F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB1A7143EDA5767B1E2F0DED8C76C56F /* Frameworks */ = {
+		CAD2D846FAADDDE6BC28264031BD4455 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05299612390E9AE7BEC8E0625C7C9803 /* Foundation.framework in Frameworks */,
+				4C25DE3A4D2FEC000AB25334FEA1546D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,16 +136,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		63FCCF7E245B76010938DD99BD7FD3BC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1A13412E124607AD955D8BFE389E694B /* LGBColor.framework */,
-				13C2AEAB083FD88FCD4705D74EC53431 /* Pods_LGBColor_Example.framework */,
-				B04F4FA0E44D0CDE9CEDC997C3A039CD /* Pods_LGBColor_Example_LGBColor_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		644189F2BB4E7A925F89D89D6496D77B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,10 +153,10 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				2AA6EF3CDDCF0E50AA7CEF628EDF5987 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				63FCCF7E245B76010938DD99BD7FD3BC /* Products */,
+				EEEE453697906516D88FB8E54AD79BB4 /* Products */,
 				44157D19575FB7683CEC21C25D4A1463 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -193,9 +183,17 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C7504F0C2C508D2B0F5C5C9A834B61D7 /* Pods-LGBColor_Example */ = {
@@ -216,12 +214,14 @@
 			path = "Target Support Files/Pods-LGBColor_Example";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		EEEE453697906516D88FB8E54AD79BB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				8E0902C92FA5BBB1CD26DCE9144BC79A /* LGBColor.framework */,
+				1C03D1CA58CCC08218E23A1FCDD0777A /* Pods_LGBColor_Example.framework */,
+				9947EE6D94AA4AEDD864F9276F86232B /* Pods_LGBColor_Example_LGBColor_Tests.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		FF92D87D303A74C2B11FCBED9E457150 /* LGBColor */ = {
@@ -235,41 +235,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A5AA3909B60DC6AE030107B6C4425B28 /* Headers */ = {
+		DC160E112EB828499C2DFCE13BC07B59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8FC28BC0633BCDC4BF297751D31D0C /* LGBColor-umbrella.h in Headers */,
-				F650DA92575C18B350A904C2B87F0D52 /* UIColor+lgb_color.h in Headers */,
+				BE7DDF24A6052300F81693741520EB2E /* LGBColor-umbrella.h in Headers */,
+				5D1F268C45274E98DD7A85343AF18F66 /* UIColor+lgb_color.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B70C87250E99832C35DFD4EF98B727F9 /* Headers */ = {
+		E28C1BCCE47A46C200DB64D94AF91896 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F9FFE8C43B3423258C343C708376BFC /* Pods-LGBColor_Example-umbrella.h in Headers */,
+				92874AA544209B244B1E9F59F3171F3B /* Pods-LGBColor_Example-LGBColor_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFA117A3258978588F0A4F69155D49A2 /* Headers */ = {
+		E41617BAA052ECCCDB3C622ABD1FC816 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C91442DFE774E55A822D56A932EE5A /* Pods-LGBColor_Example-LGBColor_Tests-umbrella.h in Headers */,
+				CFFEDBC59CB73F3D8D972FB2CEC052E2 /* Pods-LGBColor_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7384B84A9A8CD75AE8F3143607BEFB86 /* LGBColor */ = {
+		27865A373B08EE2410DFF5FAF0269379 /* LGBColor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53100222EDC57F894B681C7C46252257 /* Build configuration list for PBXNativeTarget "LGBColor" */;
+			buildConfigurationList = 5851441CD83EEAF77AB20748FCBEFDA4 /* Build configuration list for PBXNativeTarget "LGBColor" */;
 			buildPhases = (
-				2C59A06E6845EBF170C07FFD483AEFE9 /* Sources */,
-				DB1A7143EDA5767B1E2F0DED8C76C56F /* Frameworks */,
-				A5AA3909B60DC6AE030107B6C4425B28 /* Headers */,
+				C9CE90DF23BC99395CA8A8FF8B72E344 /* Sources */,
+				1FE745CC9C9C42BD90095CE8B1AFF47D /* Frameworks */,
+				DC160E112EB828499C2DFCE13BC07B59 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -277,43 +277,43 @@
 			);
 			name = LGBColor;
 			productName = LGBColor;
-			productReference = 1A13412E124607AD955D8BFE389E694B /* LGBColor.framework */;
+			productReference = 8E0902C92FA5BBB1CD26DCE9144BC79A /* LGBColor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		79077B7B11C13192D304422D2A7DDB6D /* Pods-LGBColor_Example */ = {
+		F70BD4899DF7FAF3E0A4617F11623DCB /* Pods-LGBColor_Example-LGBColor_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 031D13F69D97DBE0250253D9DF29AEF9 /* Build configuration list for PBXNativeTarget "Pods-LGBColor_Example" */;
+			buildConfigurationList = 373A6767A79D3BD7639F4BFFED9C9FF8 /* Build configuration list for PBXNativeTarget "Pods-LGBColor_Example-LGBColor_Tests" */;
 			buildPhases = (
-				9D6F4911DE3AB1C38E446F54A0252DD2 /* Sources */,
-				B820614B20F0F997E64A41D8F6553C00 /* Frameworks */,
-				B70C87250E99832C35DFD4EF98B727F9 /* Headers */,
+				A0E077BEC698B5A269634F5C1CF79F8E /* Sources */,
+				CAD2D846FAADDDE6BC28264031BD4455 /* Frameworks */,
+				E28C1BCCE47A46C200DB64D94AF91896 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4A661B5657429DD6EE5E70EA2FECA67E /* PBXTargetDependency */,
-			);
-			name = "Pods-LGBColor_Example";
-			productName = "Pods-LGBColor_Example";
-			productReference = 13C2AEAB083FD88FCD4705D74EC53431 /* Pods_LGBColor_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B5F519219A234963C4349F05AF7EF2FE /* Pods-LGBColor_Example-LGBColor_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 464964D58376699FD4AB99EAADFF3981 /* Build configuration list for PBXNativeTarget "Pods-LGBColor_Example-LGBColor_Tests" */;
-			buildPhases = (
-				8C4DE589E66108457ACE94D90C909339 /* Sources */,
-				318CC6765046AEF3D6DED2852A5C5632 /* Frameworks */,
-				EFA117A3258978588F0A4F69155D49A2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C07000C4ABFA25C7B89616384ED3705F /* PBXTargetDependency */,
+				D1D05AD0C2C406314CD100DAD14EB5DF /* PBXTargetDependency */,
 			);
 			name = "Pods-LGBColor_Example-LGBColor_Tests";
 			productName = "Pods-LGBColor_Example-LGBColor_Tests";
-			productReference = B04F4FA0E44D0CDE9CEDC997C3A039CD /* Pods_LGBColor_Example_LGBColor_Tests.framework */;
+			productReference = 9947EE6D94AA4AEDD864F9276F86232B /* Pods_LGBColor_Example_LGBColor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCC00CFA03D01CC398E178FA8A9AE226 /* Pods-LGBColor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29532F05E562926B0A8120A511E94A5 /* Build configuration list for PBXNativeTarget "Pods-LGBColor_Example" */;
+			buildPhases = (
+				36AF6D548249DF971E66911184107D7F /* Sources */,
+				907C3CDBAE5BBFB4977D082D4813E6E2 /* Frameworks */,
+				E41617BAA052ECCCDB3C622ABD1FC816 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D76CBFE8F8B054C7B487E0001D2DA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGBColor_Example";
+			productName = "Pods-LGBColor_Example";
+			productReference = 1C03D1CA58CCC08218E23A1FCDD0777A /* Pods_LGBColor_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,7 +322,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -333,89 +333,113 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 63FCCF7E245B76010938DD99BD7FD3BC /* Products */;
+			productRefGroup = EEEE453697906516D88FB8E54AD79BB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7384B84A9A8CD75AE8F3143607BEFB86 /* LGBColor */,
-				79077B7B11C13192D304422D2A7DDB6D /* Pods-LGBColor_Example */,
-				B5F519219A234963C4349F05AF7EF2FE /* Pods-LGBColor_Example-LGBColor_Tests */,
+				27865A373B08EE2410DFF5FAF0269379 /* LGBColor */,
+				FCC00CFA03D01CC398E178FA8A9AE226 /* Pods-LGBColor_Example */,
+				F70BD4899DF7FAF3E0A4617F11623DCB /* Pods-LGBColor_Example-LGBColor_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C59A06E6845EBF170C07FFD483AEFE9 /* Sources */ = {
+		36AF6D548249DF971E66911184107D7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847F0EC838F516374EB1E244CC425BEA /* LGBColor-dummy.m in Sources */,
-				6963B44BFD9A735765C611936388DFBC /* UIColor+lgb_color.m in Sources */,
+				EF5B53D9293EF3959DF2928EAA2CF82A /* Pods-LGBColor_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C4DE589E66108457ACE94D90C909339 /* Sources */ = {
+		A0E077BEC698B5A269634F5C1CF79F8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4368349B131BCF97678633B916F1BC7E /* Pods-LGBColor_Example-LGBColor_Tests-dummy.m in Sources */,
+				66A27FCF5538471D28478C7787C21155 /* Pods-LGBColor_Example-LGBColor_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D6F4911DE3AB1C38E446F54A0252DD2 /* Sources */ = {
+		C9CE90DF23BC99395CA8A8FF8B72E344 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E849AF576EFB8F6D02D5BA92A561A121 /* Pods-LGBColor_Example-dummy.m in Sources */,
+				3B202D4005F0BA40451154E7655CB8F4 /* LGBColor-dummy.m in Sources */,
+				7717A18AE6E2B1EACC1EC6A0C1FFD4CF /* UIColor+lgb_color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4A661B5657429DD6EE5E70EA2FECA67E /* PBXTargetDependency */ = {
+		A2D76CBFE8F8B054C7B487E0001D2DA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LGBColor;
-			target = 7384B84A9A8CD75AE8F3143607BEFB86 /* LGBColor */;
-			targetProxy = B455ADFF09F64C6EDD5BD2A6B92AD723 /* PBXContainerItemProxy */;
+			target = 27865A373B08EE2410DFF5FAF0269379 /* LGBColor */;
+			targetProxy = 459BF0421ED1DC82A171CAF923FAD041 /* PBXContainerItemProxy */;
 		};
-		C07000C4ABFA25C7B89616384ED3705F /* PBXTargetDependency */ = {
+		D1D05AD0C2C406314CD100DAD14EB5DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LGBColor;
-			target = 7384B84A9A8CD75AE8F3143607BEFB86 /* LGBColor */;
-			targetProxy = 34180AC8AAA40518033051CDB042BA0C /* PBXContainerItemProxy */;
+			target = 27865A373B08EE2410DFF5FAF0269379 /* LGBColor */;
+			targetProxy = F9110EA2F818DF7200FD46FA2702D306 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		42497D8F36F8CA72E328B56355D79B04 /* Release */ = {
+		13DD47660A0FE4643503C6341FCB4014 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EC9079272B4872F85A2C7000E2F4DC0 /* Pods-LGBColor_Example.release.xcconfig */;
+			baseConfigurationReference = 8C30649930CF5E5D171079EDBDB7BD05 /* Pods-LGBColor_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LGBColor_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBColor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F2ADB528EBF7A4E5BBD4F240462B009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151206139B40B2CA319D6E05521D31FB /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGBColor_Example;
+				PRODUCT_NAME = Pods_LGBColor_Example_LGBColor_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,26 +448,21 @@
 			};
 			name = Release;
 		};
-		4A9CC999926CC07D43E3355BA04EC8ED /* Debug */ = {
+		59994D6A2F5692E394CF9D3AAC404261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C91A0F3F4F807249D5038E09A064383 /* LGBColor.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LGBColor/LGBColor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LGBColor/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LGBColor/LGBColor.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -456,12 +475,40 @@
 			};
 			name = Debug;
 		};
-		8B16B17393C067E32CCA6BFB6CB86B2B /* Debug */ = {
+		59CD2724F258C6D3888DC60E68D72B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC9079272B4872F85A2C7000E2F4DC0 /* Pods-LGBColor_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBColor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBColor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -469,23 +516,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -498,32 +539,26 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		99D13C184FC5FC05AF68362D04970EFF /* Release */ = {
+		8D5AC92C91AA287C381C5D6452FED8C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C91A0F3F4F807249D5038E09A064383 /* LGBColor.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LGBColor/LGBColor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LGBColor/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LGBColor/LGBColor.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -536,12 +571,10 @@
 			};
 			name = Release;
 		};
-		A809BE8D78489167E81F4DC31B6EED6D /* Release */ = {
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -549,23 +582,16 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -573,32 +599,26 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C8356A2C48C875F4057A2FD007474189 /* Debug */ = {
+		EA2E4C4741E42DD12200B73E720A44D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 316F7CB0D1DDCADD1CA8AC11FFC41D3B /* Pods-LGBColor_Example-LGBColor_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests.modulemap";
@@ -606,7 +626,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_LGBColor_Example_LGBColor_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -615,114 +634,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		D91CC90640CC5FDA8DC867C491B11D8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C30649930CF5E5D171079EDBDB7BD05 /* Pods-LGBColor_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LGBColor_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LGBColor_Example/Pods-LGBColor_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGBColor_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E4B8780C028E0914DA2BC36B686F6310 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 151206139B40B2CA319D6E05521D31FB /* Pods-LGBColor_Example-LGBColor_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LGBColor_Example-LGBColor_Tests/Pods-LGBColor_Example-LGBColor_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LGBColor_Example_LGBColor_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		031D13F69D97DBE0250253D9DF29AEF9 /* Build configuration list for PBXNativeTarget "Pods-LGBColor_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D91CC90640CC5FDA8DC867C491B11D8B /* Debug */,
-				42497D8F36F8CA72E328B56355D79B04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B16B17393C067E32CCA6BFB6CB86B2B /* Debug */,
-				A809BE8D78489167E81F4DC31B6EED6D /* Release */,
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		464964D58376699FD4AB99EAADFF3981 /* Build configuration list for PBXNativeTarget "Pods-LGBColor_Example-LGBColor_Tests" */ = {
+		373A6767A79D3BD7639F4BFFED9C9FF8 /* Build configuration list for PBXNativeTarget "Pods-LGBColor_Example-LGBColor_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8356A2C48C875F4057A2FD007474189 /* Debug */,
-				E4B8780C028E0914DA2BC36B686F6310 /* Release */,
+				EA2E4C4741E42DD12200B73E720A44D6 /* Debug */,
+				2F2ADB528EBF7A4E5BBD4F240462B009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53100222EDC57F894B681C7C46252257 /* Build configuration list for PBXNativeTarget "LGBColor" */ = {
+		5851441CD83EEAF77AB20748FCBEFDA4 /* Build configuration list for PBXNativeTarget "LGBColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A9CC999926CC07D43E3355BA04EC8ED /* Debug */,
-				99D13C184FC5FC05AF68362D04970EFF /* Release */,
+				59994D6A2F5692E394CF9D3AAC404261 /* Debug */,
+				8D5AC92C91AA287C381C5D6452FED8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29532F05E562926B0A8120A511E94A5 /* Build configuration list for PBXNativeTarget "Pods-LGBColor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DD47660A0FE4643503C6341FCB4014 /* Debug */,
+				59CD2724F258C6D3888DC60E68D72B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
